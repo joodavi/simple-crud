@@ -1,0 +1,17 @@
+{
+  "name": "simple-crud",
+  "version": "1.0.0",
+  "description": "Devolping a simple CRUD. Project is based on 'Como criar CRUDs com qualidade? por DevSoutinho', a course from Mario Souto",
+  "main": "crud.js",
+  "scripts": {
+    "start": "node crud.js",
+    "dev": "nodemon crud.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
