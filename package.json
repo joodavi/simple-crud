@@ -4,14 +4,20 @@
   "description": "Devolping a simple CRUD. Project is based on 'Como criar CRUDs com qualidade? por DevSoutinho', a course from Mario Souto",
   "main": "crud.js",
   "scripts": {
-    "start": "node crud.js",
-    "dev": "nodemon crud.js",
+    "start": "npx ts-node crud.ts",
+    "dev": "nodemon --ext ts,tsx --exec 'npm run start'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.4.7",
+    "@types/uuid": "^9.0.2",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6",
+    "uuid": "^9.0.0"
   }
 }
